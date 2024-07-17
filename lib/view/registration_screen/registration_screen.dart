@@ -148,7 +148,7 @@ class loginScreen extends StatelessWidget {
                   }
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Please enter valid credentials'))
+                    SnackBar(content: Text('Please enter valid details'))
                   );
                 }
               },
